@@ -26,7 +26,7 @@ function Header() {
             <Link to={"/recruit"}>
               <div className={cx("navbar-item")}>TUYỂN DỤNG </div>
             </Link>
-            <a a href="https://credit-github-io.vercel.app/login">
+            <a  href="https://credit-github-io.vercel.app/login">
 
             <button className={cx("btn-login")}>LOG IN</button>
             </a>

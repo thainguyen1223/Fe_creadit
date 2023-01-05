@@ -1,0 +1,56 @@
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--text-color);
+    background: #f4f4f4;
+  }
+  :root {
+    --primary: #fe2c55;
+    --black: #000;
+    --white: #fff;
+    --text-color: #000000;
+    --green:#137547;
+    --font-family: 'Montserrat', sans-serif;
+  }
+a{
+  text-decoration: none;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+  margin-top: 100px;
+  
+}
+.content {
+  flex: 1;
+}
+
+//fonts emmbeded
+
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/ProximaNova-Semibold.woff2');
+  font-weight: 600;
+}
+
+
+@font-face {
+  font-family: ProximaNova;
+  src: url('/assets/fonts/Proxima-Nova-Bold.woff');
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: sofiapro;
+  src: url('/assets/fonts/sofiapro-bold.woff');
+  font-weight: 700;
+}

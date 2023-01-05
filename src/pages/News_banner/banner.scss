@@ -1,0 +1,111 @@
+.wrapper-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner-group {
+  width: 100%;
+  height: 653px;
+  background: var(--green);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.silder {
+  width: 1200px !important;
+  border: none !important;
+}
+.banner {
+  display: flex !important;
+}
+.banner-text {
+  cursor: pointer;
+  width: 840px;
+  height: 475px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 40px;
+  h3 {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 56px;
+    color: var(--white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 25px;
+    -webkit-line-clamp: 3;
+    height: 132px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    margin-top: 20px;
+    opacity: 0.8;
+
+    text-align: left;
+    opacity: 0.8;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 28px;
+    color: var(--white);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .btn-show {
+    width: 233px;
+    height: 83px;
+    border: none;
+    border-radius: 20px;
+    background: #ffc300;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--white);
+  }
+  .btn-show:hover {
+    background-color: #80b918;
+  }
+}
+.IMG_VCB {
+  cursor: pointer;
+  width: 739px;
+  height: 465px;
+}
+
+.slick-dots {
+  bottom: -50px !important;
+}
+.slick-dots li button:before {
+  color: #d8d8d8 !important;
+  font-size: 8px !important;
+}
+.slick-dots li.slick-active button:before {
+  border: 1px solid #e89f71 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 50%;
+  color: #e89f71 !important;
+}
+.slick-prev:before,
+.slick-next:before {
+}
+.slick-next:before {
+  content: url(../../image/left.svg) !important;
+}
+.slick-prev:before {
+  margin-left: -60px !important;
+  content: url(../../image/right.svg) !important;
+}
+// .slick-prev, .slick-next{
+//   position: absolute !important;
+//   top: 26% !important;
+// }
